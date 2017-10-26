@@ -1,3 +1,6 @@
+6.4.2 - October 26, 2017
+- Fix issue where not all types returned properties as an array
+
 6.4.1 - August 4, 2017
 - Fixed a bug where if no options were given at all to the render function you'd get an error
 

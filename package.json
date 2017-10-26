@@ -1,11 +1,15 @@
 {
-  "name": "raml2html",
+  "name": "@mojotech/raml2html",
   "description": "RAML to HTML documentation generator",
-  "version": "6.4.1",
+  "version": "6.4.2",
   "author": {
     "name": "Kevin Renskers",
     "email": "kevin@mixedcase.nl"
   },
+  "contributors": [
+    "Craig P Jolicoeur <craig@mojotech.com>",
+    "Halsey Vandenberg <halsey@mojotech.com>"
+  ],
   "bugs": {
     "url": "https://github.com/raml2html/raml2html/issues"
   },
@@ -23,7 +27,7 @@
     "eslint-plugin-prettier": "2.0.x",
     "prettier": "1.x"
   },
-  "homepage": "https://github.com/raml2html/raml2html",
+  "homepage": "https://github.com/mojotech/raml2html",
   "keywords": [
     "RAML"
   ],
@@ -31,7 +35,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/raml2html/raml2html.git"
+    "url": "git://github.com/mojotech/raml2html.git"
   },
   "preferGlobal": true,
   "scripts": {
