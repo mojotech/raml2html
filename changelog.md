@@ -1,3 +1,6 @@
+6.4.3 - December 4, 1027
+- Brought in upstream changes from raml2html/raml2html mainline
+
 6.4.2 - October 26, 2017
 - Fix issue where not all types returned properties as an array
 
