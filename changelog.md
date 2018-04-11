@@ -1,8 +1,24 @@
-6.4.3 - December 4, 1027
-- Brought in upstream changes from raml2html/raml2html mainline
-
-6.4.2 - October 26, 2017
+7.1.1 - April 11, 2018
 - Fix issue where not all types returned properties as an array
+
+7.1.0 - April 6, 2018
+- Themes can now supply their own `writeOutput` function to control how they handle the output
+
+7.0.0 - February 18, 2018
+- Using raml2obj 6.0.0 and the new default theme 2.7.0
+
+6.7.0 - February 13, 2018
+- Added the `pretty` library as a dependency, for use with the `--pretty` option
+
+6.6.0 - January 20, 2018
+- CLI options are now added to ramlObj, so they can be used in templates
+
+6.5.0 - January 9, 2018
+- Switched marked dependency back to marked
+- Updated other dependencies like yargs, eslint, and prettier
+
+6.4.2 - November 10, 2017
+- Switched marked dependency to 8fold-marked
 
 6.4.1 - August 4, 2017
 - Fixed a bug where if no options were given at all to the render function you'd get an error

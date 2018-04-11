@@ -61,8 +61,10 @@ raml2html.render(source, configWithDefaultTheme).then(function(result) {
  * object and must return a promise with the result. You can do whatever you want in this function.
  *
  * You can also supply a postProcessHtml function that can for example minify the generated HTML.
+ * 
+ * You can also supply a writeOutput function that takes over writing the output (to disk for example).
  *
- * You can also add a setupNunjucks function that takes the env as its only parameter.
+ * You can also supply a setupNunjucks function that takes the env as its only parameter.
  */
 raml2html.render(source, config).then(function(result) {
   // Save the result to a file or do something else with the result
@@ -112,11 +114,6 @@ To get the best environment to work on raml2html and the default theme, follow t
 
 Now both projects are installed globally, but using the local development versions of both.
 From the theme repo's example folder you can run the `render-all-examples` script without problem.
-
-
-## Supporters
-If you'd like to financially support raml2html and be listed right here as a supporter, please
-[support me on Patreon](https://www.patreon.com/kevinrenskers).
 
 
 ## Changelog
